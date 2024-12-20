@@ -1,0 +1,39 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(350px, auto);
+    grid-auto-columns: minmax(250px, auto);
+}
+
+.welcome {
+    text-align: center;
+    font-size: xx-large;
+    font-family: cursive;
+    margin: auto;
+    width: 100%;
+    padding: 40px;
+    /* background-color: var(--cozy-white); */
+}
+
+.description {
+    text-align: center;
+    font-size: x-large;
+    font-family: cursive;
+    margin: auto;
+    width: 100%;
+    padding: 40px;
+    /* background-color: var(--cozy-white); */
+}
+
+.searchbar {
+    width: 100%;
+    background-color: #b4b7b4;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
